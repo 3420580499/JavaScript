@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one {
+            background-color: red;
+            width: 100px;
+            height: 200px;
+            position: relative;
+        }
+
+        .two {
+            background-color: blue;
+            width: 100px;
+            height: 200px;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <div class="two"></div>
+    </div>
+    avalksjdflkjslkfjslkdjfkl
+    <script>
+        var one = document.querySelector('.one');
+        var two = document.querySelector('.two');
+        // onmouseover和onmouseenter
+        // onmouseout和onmouseleave
+        one.addEventListener('mouseover', function () {
+            console.log(111)
+        })
+        one.addEventListener('mouseout', function () {
+            console.log(222)
+        })
+    </script>
+</body>
+
+</html>

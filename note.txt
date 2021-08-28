@@ -1,0 +1,12 @@
+﻿1.在js中，相加运算中只要有一边是字符串，结果就一定是字符串（相减不是）    
+2.NAN是数字类型，undefined是undefined类型，null是object类型
+3.boolean()函数中，"",null,nan，undefined，0会转为FALSE
+4.continue退出for循环（其他）中某一次的循环，break退出整个for循环
+5.变量命名（数字，字母，下换线，$）,不能以数字开头
+6.console.dir()可以打印出对象具有的方法
+7.BOM是浏览器对象模型，document表示html文档对象，element表示标签对象，node表示节点对象（文本，属性，元素节点）
+8.事件有鼠标事件（event代表鼠标事件对象）和键盘事件（event代表键盘事件对象）
+9.全局变量和方法会成为window的属性和方法
+10.获取属性值用offetleft，赋值使用style.left
+11.jQuery中的入口函数相当于原生js中的DOMContentLoaded（结构加载完就行）事件，不是onload事件，不需要全部加载完
+12.jQuery中推荐使用on()绑定事件，因为能使新创建的元素也绑定上事件，使用click()时，程序不会等你点击触发事件，而是先执行完代码，后面新创建的元素就不能绑定上click事件了
